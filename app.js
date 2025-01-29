@@ -86,5 +86,8 @@ function sortearAmigo() {
     } else {
         // Caso a string esteja com conteúdo, exibe a mensagem abaixo.
         alert ('O nome já foi sorteado, sua lista foi reiniciada! Insira um novo nome!')
+        // Remove o nome sorteado da tela
+        exibirTextoNaTela ("resultado", '');
+
     }
 };
