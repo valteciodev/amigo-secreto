@@ -21,13 +21,13 @@ function adicionarAmigo () {
             limparCampo();
             // Caso já exista um nome sorteado, é setado para vazio.
             exibirTextoNaTela ("resultado", '');
-        }
+        };
 
     } else {
         // Caso as confições sejam falsas, emite uma mensagem na tela e limpa o cmapo.
         alert ('Insira um nome válido!');
         limparCampo();
-    }
+    };
 };
 
 // Limpa o campo de imput.
@@ -84,12 +84,12 @@ function sortearAmigo() {
         } else {
             // Caso a lista esteja vazia, exibe a mesnsagem abaixo.
             alert ('Não existe nomes na lista!');
-        }
+        };
     } else {
         // Caso a string esteja com conteúdo, exibe a mensagem abaixo.
         alert ('O nome já foi sorteado, sua lista foi reiniciada! Insira um novo nome!')
         // Remove o nome sorteado da tela
         exibirTextoNaTela ("resultado", '');
 
-    }
+    };
 };
