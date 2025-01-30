@@ -3,7 +3,8 @@
 </div>
 
 Bem-vindo ao **Amigo Secreto**, um jogo interativo desenvolvido em HTML e JavaScript! 
-Este projeto permite sortear amigos de forma divertida e intuitiva. 🥳
+Este projeto permite sortear amigos de forma divertida e intuitiva, e foi criado baseado no aprendizado oferecido pelo **Programa ONE - Oracle Next Education: GRUPO 8** 
+em parceria com a **Alura**. Espero que aproveite bem!🥳
 
 ## 🚀 Funcionalidades
 - Adicione nomes à lista de participantes
