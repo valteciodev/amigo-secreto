@@ -67,8 +67,10 @@ function sortearAmigo() {
     let resultado = document.getElementById('resultado').textContent;
     // Verifica se O resultado já foi exibido, validando se a string está vazia.
     if (!resultado) {
-        // Verifica se a lista está vazia.
-        if (amigos) {
+        console.log('Passou' + resultado);
+        // Verifica se a "amigos" é uma lista e se está vazia.
+        if (amigos && amigos.length > 0) {
+            console.log('Array true' + amigos);
             // Gera um número aleatório multiplicando pelo tamanho da lista.
             let amigoSorteado = Math.random() * amigos.length;
             // Caso o número gerado seja float, a função abaixo arredonda o valor para baixo.
