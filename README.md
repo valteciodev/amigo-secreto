@@ -24,6 +24,7 @@ cd amigo-secreto
 
 # Abra o arquivo index.html no navegador
 ```
+Ou pode usar direto no navegador clicando [aqui](https://valteciodev.github.io/amigo-secreto/).
 
 ## 🛠 Tecnologias utilizadas
 - HTML, CSS e JavaScript
